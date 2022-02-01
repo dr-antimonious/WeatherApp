@@ -1,0 +1,45 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+    <ApplicationIcon>stock-vector-weather-icon-vector-all-in-one-weather-icon-vector-that-express-sunny-rainy-and-wind-session-1388452634 (1).ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Fonts\Segoe Fluent Icons.ttf" />
+    <None Remove="Fonts\Segoe UI Bold.ttf" />
+    <None Remove="Fonts\Segoe UI Light.ttf" />
+    <None Remove="Fonts\Segoe UI.ttf" />
+    <None Remove="IMG_20190412_183202-01.jpeg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentWPF" Version="0.10.2" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\WeatherLibrary\WeatherLibrary.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Fonts\Segoe Fluent Icons.ttf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Fonts\Segoe UI Bold.ttf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Fonts\Segoe UI Light.ttf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Fonts\Segoe UI.ttf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="stock-vector-weather-icon-vector-all-in-one-weather-icon-vector-that-express-sunny-rainy-and-wind-session-1388452634 (1).ico" />
+    <Resource Include="IMG_20190412_183202-01.jpeg" />
+  </ItemGroup>
+
+</Project>
