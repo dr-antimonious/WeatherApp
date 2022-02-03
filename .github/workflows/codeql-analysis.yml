@@ -7,11 +7,14 @@ on:
     - '**.cs'
     - '**.csproj'
     - '**.yml'
+    - '**.sln'
   pull_request:
     branches: [main]
     paths:
     - '**.cs'
     - '**.csproj'
+    - '**.yml'
+    - '**.sln'
 
 jobs:
   analyze:
