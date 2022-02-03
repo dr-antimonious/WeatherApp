@@ -6,6 +6,7 @@ on:
     paths:
     - '**.cs'
     - '**.csproj'
+    - '**.yml'
   pull_request:
     branches: [main]
     paths:
