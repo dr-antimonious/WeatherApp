@@ -2,7 +2,8 @@
 
   <PropertyGroup>
     <OutputType>WinExe</OutputType>
-    <TargetFramework>net6.0-windows</TargetFramework>
+    <TargetFrameworks>net6.0-windows</TargetFrameworks>
+	<RuntimeIdentifier>win-x86</RuntimeIdentifier>
     <Nullable>enable</Nullable>
     <UseWPF>true</UseWPF>
     <ApplicationIcon>stock-vector-weather-icon-vector-all-in-one-weather-icon-vector-that-express-sunny-rainy-and-wind-session-1388452634 (1).ico</ApplicationIcon>
